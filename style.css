@@ -30,6 +30,7 @@ body{
     justify-content: space-between;
     color: #f9faf8;
     background: #1F2937;
+
     padding: 64px;
     height: 300px;
     padding-left: 300px;
@@ -47,7 +48,11 @@ body{
 }
 
 .s1-left{
-    width: 355px; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+
+    width: 355px;
 }
 .s1-img{
     width: 500px;
@@ -59,9 +64,9 @@ body{
     justify-content: center;
     align-items: center;
     background: white;
-    gap: 75px;
+    gap: 40px;
 
-    height: 300px;
+    height: 350px;
     padding-left: 300px;
     padding-right: 300px;
     padding-top: 100px;
@@ -157,6 +162,7 @@ button{
     color: #f9faf8;
 
     border-radius: 10px;
+    border: #3882f6;
 
     width: 160px;
     height:50px;
