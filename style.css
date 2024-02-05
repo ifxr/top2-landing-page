@@ -89,8 +89,26 @@ body{
     height: auto;
 }
 .section-three{
-    height: 300px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
     background: #b3b4b6;
+
+    height: 300px;
+    font-size: 36px;
+    font-weight: 400;
+    color: #1F2937;
+}
+.sec-three-inner{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.quote-cred{
+    display: flex;
+    font-size: 25px;
+    justify-content: flex-end;
 }
 .section-four{
     height: 300px;
