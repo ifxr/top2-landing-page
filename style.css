@@ -49,12 +49,44 @@ body{
 .s1-left{
     width: 355px; 
 }
-.si-right{
-
+.s1-img{
+    width: 500px;
+    height: 250px;
 }
 .section-two{
-    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: white;
+    gap: 75px;
+
+    height: 300px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+    padding-bottom: 175px;
+
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.sec-two-inner{
+    display: flex;
+    gap: 20px;
+
+    font-size: 18px;
+    font-weight: lighter;
+    color: #4f5866;
+}
+.image_combo{
+    display: flex;
+    flex-direction: row;
+}
+
+.s2-imgs{
+    width: 200px;
+    height: auto;
 }
 .section-three{
     height: 300px;
