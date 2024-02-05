@@ -90,7 +90,6 @@ body{
 }
 .section-three{
     display: flex;
-    
     justify-content: center;
     align-items: center;
     background: #b3b4b6;
@@ -111,9 +110,36 @@ body{
     justify-content: flex-end;
 }
 .section-four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 300px;
     background: white;
+
+    padding: 75px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
+.sec-four-inner{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    
+    border-radius: 10px;
+    height:175px;
+}
+.sec-four-main-text{
+    color: #E5E7EB;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.sec-four-text{
+    color: #E5E7EB;
+    font-size: 24px;
+}
+
 .footer{
     display: flex;
     align-items: center;
@@ -124,6 +150,18 @@ body{
 button{
     background-color: #3882f6;
     color: #f9faf8;
+
+    border-radius: 10px;
+
+    width: 160px;
+    height:50px;
+    font-size: 24px;
+}
+
+.sec-four-button{
+    border: #E5E7EB;
+    border-width: 2px;
+    border-style: solid;
 }
 
 ul{
